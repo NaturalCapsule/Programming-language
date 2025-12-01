@@ -1,0 +1,270 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: #000;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+h1 {
+color: #3a3a3a;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+             0 0 20px rgba(255, 255, 255, 0.5),
+             0 0 30px rgba(255, 255, 255, 0.3);
+    font-size: 40px;
+}
+
+h3 {
+color: #3a3a3a;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+             0 0 20px rgba(255, 255, 255, 0.5),
+             0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+p {
+color: #3a3a3a;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+             0 0 20px rgba(255, 255, 255, 0.5),
+             0 0 30px rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+}
+
+ul {
+color: #3a3a3a;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+             0 0 20px rgba(255, 255, 255, 0.5),
+             0 0 30px rgba(255, 255, 255, 0.3);
+}
+
+li {
+color: #3a3a3a;
+text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
+             0 0 20px rgba(255, 255, 255, 0.5),
+             0 0 30px rgba(255, 255, 255, 0.3);
+    font-size: 20px;
+}
+
+.rainbow {
+    height: 100vh;
+    width: 0;
+    top: 0;
+    position: absolute;
+    transform: rotate(10deg);
+    transform-origin: top right;
+}
+
+/* Generate 25 rainbow stripes with staggered animations */
+.rainbow:nth-child(1) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 44.1s linear infinite slide; animation-delay: -1.8s; }
+.rainbow:nth-child(2) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 43.2s linear infinite slide; animation-delay: -3.6s; }
+.rainbow:nth-child(3) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 42.3s linear infinite slide; animation-delay: -5.4s; }
+.rainbow:nth-child(4) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 41.4s linear infinite slide; animation-delay: -7.2s; }
+.rainbow:nth-child(5) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 40.5s linear infinite slide; animation-delay: -9s; }
+.rainbow:nth-child(6) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 39.6s linear infinite slide; animation-delay: -10.8s; }
+.rainbow:nth-child(7) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 38.7s linear infinite slide; animation-delay: -12.6s; }
+.rainbow:nth-child(8) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 37.8s linear infinite slide; animation-delay: -14.4s; }
+.rainbow:nth-child(9) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 36.9s linear infinite slide; animation-delay: -16.2s; }
+.rainbow:nth-child(10) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 36s linear infinite slide; animation-delay: -18s; }
+.rainbow:nth-child(11) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 35.1s linear infinite slide; animation-delay: -19.8s; }
+.rainbow:nth-child(12) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 34.2s linear infinite slide; animation-delay: -21.6s; }
+.rainbow:nth-child(13) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 33.3s linear infinite slide; animation-delay: -23.4s; }
+.rainbow:nth-child(14) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 32.4s linear infinite slide; animation-delay: -25.2s; }
+.rainbow:nth-child(15) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 31.5s linear infinite slide; animation-delay: -27s; }
+.rainbow:nth-child(16) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 30.6s linear infinite slide; animation-delay: -28.8s; }
+.rainbow:nth-child(17) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 29.7s linear infinite slide; animation-delay: -30.6s; }
+.rainbow:nth-child(18) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 28.8s linear infinite slide; animation-delay: -32.4s; }
+.rainbow:nth-child(19) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 27.9s linear infinite slide; animation-delay: -34.2s; }
+.rainbow:nth-child(20) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 27s linear infinite slide; animation-delay: -36s; }
+.rainbow:nth-child(21) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 26.1s linear infinite slide; animation-delay: -37.8s; }
+.rainbow:nth-child(22) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 25.2s linear infinite slide; animation-delay: -39.6s; }
+.rainbow:nth-child(23) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(96 165 250), 0 0 50px 25px rgb(94 234 212), 50px 0 50px 25px rgb(232 121 249), 130px 0 80px 40px white; animation: 24.3s linear infinite slide; animation-delay: -41.4s; }
+.rainbow:nth-child(24) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(94 234 212), 0 0 50px 25px rgb(232 121 249), 50px 0 50px 25px rgb(96 165 250), 130px 0 80px 40px white; animation: 23.4s linear infinite slide; animation-delay: -43.2s; }
+.rainbow:nth-child(25) { box-shadow: -130px 0 80px 40px white, -50px 0 50px 25px rgb(232 121 249), 0 0 50px 25px rgb(96 165 250), 50px 0 50px 25px rgb(94 234 212), 130px 0 80px 40px white; animation: 22.5s linear infinite slide; animation-delay: -45s; }
+
+@keyframes slide {
+    from {
+        right: -25vw;
+    }
+    to {
+        right: 125vw;
+    }
+}
+
+.h {
+    box-shadow: 0 0 50vh 40vh white;
+    width: 100vw;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.v {
+    box-shadow: 0 0 35vw 25vw white;
+    width: 0;
+    height: 100vh;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+
+.cover-div,
+.first-cover,
+.second-cover,
+.third-cover,
+.fourth-cover,
+.fifth-cover,
+.sixth-cover {
+    scroll-snap-align: start;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    padding: 40px;
+}
+
+.third-cover {
+    flex-direction: row;
+}
+
+.first-description {
+    text-align: center;
+    max-width: 700px;
+}
+
+.image-container {
+    padding-left: 20px;
+}
+
+.dennis-image {
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.hidden {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.9s ease-out;
+}
+
+.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+html, body {
+  height: 100%;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.cover-div,
+.first-cover,
+.second-cover,
+.third-cover,
+.fourth-cover,
+.fifth-cover,
+.sixth-cover {
+  scroll-snap-align: start;
+}
+
+
+
+/* 
+.cover-div {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background: linear-gradient(135deg, #000000, #1a0000, #560d0d, #8b0000);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+}
+
+.first-cover {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background: linear-gradient(135deg, #000000, #1a0000, #560d0d, #8b0000);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+}
+
+.second-cover {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background: linear-gradient(135deg, #000000, #1a0000, #560d0d, #8b0000);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+}
+
+.third-cover {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:row;
+    background: linear-gradient(135deg, #000000, #1a0000, #560d0d, #8b0000);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+}
+
+.fourth-cover {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background: linear-gradient(135deg, #000000, #1a0000, #560d0d, #8b0000);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+}
+
+.fifth-cover, .sixth-cover {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    background: linear-gradient(135deg, #000000, #1a0000, #560d0d, #8b0000);
+    background-size: 400% 400%;
+    animation: gradientMove 15s ease infinite;
+    height: 100vh;
+} */
+
+.image-container {
+  padding-left: 20px;
+}
+
+.dennis-image {
+  max-width: 300px;
+  border-radius: 20px;
+}
+
+.first-description {
+  text-align: center;
+  max-width: 700px;
+}
