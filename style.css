@@ -143,6 +143,14 @@ text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
     flex-direction: row;
 }
 
+.fifth-cover {
+    flex-direction: row;
+}
+
+.code-image {
+    max-width: 1000px;
+}
+
 .first-description {
     text-align: center;
     max-width: 700px;
