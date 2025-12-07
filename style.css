@@ -139,7 +139,15 @@ text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
     padding: 40px;
 }
 
+.second-cover {
+    flex-direction: row;
+}
+
 .third-cover {
+    flex-direction: row;
+}
+
+.fourth-cover {
     flex-direction: row;
 }
 
@@ -148,7 +156,13 @@ text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
 }
 
 .code-image {
-    max-width: 1000px;
+    max-width: 900px;
+}
+
+.ada-image {
+    max-width: 900px;
+    max-height: 900px;
+    border-radius: 20px;
 }
 
 .first-description {
